@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8d3d1; 
+    color: #8c5e5a;
+}
+
+.header {
+    background-color: #d8bcba;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.2rem;
+    font-weight: normal;
+    color: #f7e8e7;
+    letter-spacing: 0.5px;
+}
+
+.sub-link {
+    display: inline-block;
+    font-size: 1.05rem;
+    color: #704743;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease, text-decoration 0.2s ease;
+}
+
+.sub-link:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
+    gap: 40px;
+}
+.content-text {
+    flex: 2;
+}
+
+.content-text h2 {
+    font-size: 1.4rem;
+    color: #6d423e;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.content-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #704743;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card-imagen span {
+    font-size: 1.3rem;
+    color: #222222;
+}
+
+.lista-heuristicas {
+    padding-left: 20px;
+}
+
+.lista-heuristicas li {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    color: #704743;
+}
+
+.lista-heuristicas strong {
+    color: #6d423e;
+}

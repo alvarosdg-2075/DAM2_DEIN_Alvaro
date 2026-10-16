@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Principios de Usabilidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Los 10 principios de la usabilidad</h1>
+        <a href="index.html" class="sub-link" title="Volver al inicio">
+            ← Volver al inicio
+        </a>
+    </header>
+
+    <main class="container">
+        <section class="content-text">
+            <h2>Las 10 Heurísticas de Jakob Nielsen</h2> <br>
+
+            <img src="https://diegoamorin.com/_astro/heuristicas-de-jakob-nielsen-1.4fIwlTnu.png" alt="Imagen heuristicas"> <br> <br>
+
+            <p>
+                A continuación se detallan los 10 principios fundamentales con explicaciones extendidas y ejemplos prácticos para comprender cómo aplicarlos en el diseño de productos digitales:
+            </p>
+
+            <ol class="lista-heuristicas">
+                <li>
+                    <strong>Visibilidad del estado del sistema:</strong> 
+                    El sistema debe informar continuamente al usuario sobre lo que está ocurriendo en la plataforma, ofreciendo una retroalimentación clara, adecuada y en un tiempo razonable para evitar la incertidumbre.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Al subir un archivo pesado a una plataforma de almacenamiento en la nube, se muestra una barra de progreso indicando el porcentaje cargado, la velocidad actual y los segundos restantes.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Relación entre el sistema y el mundo real:</strong> 
+                    El sistema debe hablar el lenguaje del usuario utilizando términos, frases y conceptos cotidianos en lugar de tecnicismos del desarrollo informático, siguiendo convenciones del mundo real para que la interacción resulte natural.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Utilizar el icono de una papelera de reciclaje para eliminar archivos o llamar "Carrito de compra" al resumen de productos en una tienda online en lugar de "Base de datos de pedidos temporal".
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Control y libertad del usuario:</strong> 
+                    Los usuarios suelen realizar acciones por error o cambiar de opinión. El sistema debe ofrecer opciones claras de "salida de emergencia" que permitan revertir o cancelar acciones sin la necesidad de pasar por procesos complejos.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> El botón de "Deshacer" (Undo) o la notificación flotante al borrar un correo en Gmail que permite recuperar el mensaje enviado a la papelera con un solo clic.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Consistencia y estándares:</strong> 
+                    Se deben seguir las convenciones establecidas en la industria o plataforma. Los usuarios no deberían dudar si diferentes palabras, botones, colores o iconos significan o hacen lo mismo.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> El icono de una lupa para realizar búsquedas o colocar el enlace del perfil/cuenta en la esquina superior derecha del menú de navegación.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Prevención de errores:</strong> 
+                    Es mucho mejor prevenir la aparición de un error mediante un diseño cuidadoso que ofrecer un buen mensaje cuando el error ya ha ocurrido. Se deben eliminar condiciones propensas a fallos o pedir confirmación antes de ejecutar acciones críticas.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Deshabilitar el botón de "Enviar formulario" mientras los campos obligatorios estén vacíos, o mostrar un aviso de advertencia solicitando confirmación antes de eliminar permanentemente una cuenta.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Reconocimiento antes que recuerdo:</strong> 
+                    Se debe minimizar la carga de memoria del usuario haciendo visibles los elementos, opciones y acciones. El usuario no debería tener que recordar información expuesta en pasos anteriores para avanzar.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Mostrar un historial de búsquedas recientes o sugerencias automáticas mientras el usuario escribe en un buscador, en lugar de obligarlo a recordar el término exacto.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Flexibilidad y eficiencia de uso:</strong> 
+                    El diseño debe acomodarse tanto a usuarios principiantes como a experimentados. Los "aceleradores" o atajos (invisibles para novatos) permiten a los usuarios avanzados realizar tareas de forma mucho más rápida.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Permitir guardar un documento haciendo clic en el menú "Archivo > Guardar" (para principiantes) o mediante la combinación de teclas <code>Ctrl + S</code> / <code>Cmd + S</code> (para avanzados).
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Estética y diseño minimalista:</strong> 
+                    Las interfaces no deben contener información irrelevante o que se necesite con muy poca frecuencia. Cada dato extra compite con la información importante y disminuye su visibilidad relativa.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> La página principal del buscador de Google, que centra toda la atención en un cuadro de búsqueda limpio sin distracciones visuales ni textos innecesarios.
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores:</strong> 
+                    Los mensajes de error deben redactarse en un lenguaje comprensible (sin códigos de error numéricos o técnicos), describir con precisión el problema y ofrecer una solución constructiva e inmediata.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> En lugar de mostrar "Error 404", indicar "No hemos encontrado la página que buscas. Comprueba que la URL esté bien escrita o regresa al menú principal".
+                    </div>
+                </li>
+
+                <li>
+                    <strong>Ayuda y documentación:</strong> 
+                    Aunque es deseable que el sistema pueda utilizarse sin explicaciones, puede ser necesario proporcionar documentación. Esta debe ser fácil de buscar, enfocada en las tareas concretas del usuario y con pasos sencillos de seguir.
+                    <div class="ejemplo">
+                        <em>Ejemplo:</em> Un centro de ayuda con un buscador por palabras clave, preguntas frecuentes (FAQ) estructuradas por temas y guías paso a paso con imágenes explicativas.
+                    </div>
+                </li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
